@@ -1,0 +1,834 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-image: url(./Assest/images/slide-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 89vh;
+}
+.main-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+}
+.nav-link{
+    width: 47%;
+    font-size: smaller;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cont-sup {
+    background-color: #43BA80;
+    padding: 8px 12px 8px 10px;
+    border-radius: 6px;;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sub-link{
+    display: none;
+}
+
+.content {
+    color: white;
+    position: relative;
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2%;
+}
+.content h1 {
+    width: 39%;
+    font-weight: 700;
+    padding-bottom: 1%;
+    font-size: xx-large;
+}
+span{
+    color: #FA531E;
+}
+.bar{
+    display: none;
+}
+hr {
+    width: 5%;
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    height: 1%;
+    background: white;
+    border-radius: 6px;
+}
+.content p {
+    width: 46%;
+    padding-bottom: 1%;
+    font-size: smaller;
+    margin-top: 2%;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3%;
+}
+
+.dis-more {
+    background-color: #43BA80;
+    border-radius: 6px;
+    padding: 8px 11px 8px 12px;
+    position: absolute;
+    width: 8%;
+    font-size: small;
+}
+.cont-us {
+    background-color: #FF521A;
+    border-radius: 6px;
+    margin-left: 1%;
+    padding: 8px 11px 8px 12px;
+    width: 6%;
+    position: absolute;
+    left: 11%;
+    font-size: small;
+}
+/*Header is completed section is start*/
+.main-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.sub-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    box-shadow: 0px 1px 1px 3px #F7F7F7;
+    padding: 28px 38px;
+    height: 17%;
+    font-size: x-small;
+    border-radius: 4px;
+}
+.sub-card p{
+    font-size: larger;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 7%;
+    width: 74%;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    width: 74%;
+}
+#cloud{
+    margin-left: 0px;
+}
+.cloud-cnt{
+    margin-left: 3%;
+}
+.icon {
+    width: 16%;
+    color: #43BA80;
+    font-size: x-large;
+    height: 66%;
+    margin-left: 2%;
+}
+.main-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./Assest/images/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 26vh;
+    margin-top: 3%;
+}
+.dis-more1 {
+    background-color: #FF521A;
+    padding: 6px 13px 6px 13px;
+    border-radius: 6px;
+}
+.cont-us1{
+    background-color: #43BA80;
+    padding: 6px 18px 6px 18px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.sub-cont {
+    width: 25%;
+    height: 73%;
+    color: #F7F7F7;
+  
+    font-size: large;
+}
+.sub-btn{
+    margin-left: -4%;
+    font-size: x-small;
+}
+.sol{
+    color:#43BA80;
+}
+.about-tittle{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.about-tittle p{
+    color: #FF521A;
+    font-size: small;
+}
+.about-tittle h1{
+    margin-top: -1%;
+}
+table {
+    width: 127%;
+    font-size: smaller;
+    margin-top: 7%;
+}
+th{
+    text-align: start;
+}
+td{
+text-align: start; 
+padding: 18px 22px 13px 1px;
+}
+  tbody tr {
+    box-shadow:0px 3px 0px 1px #F7F7F7;
+  }
+.table-row{
+    border: 1px solid black;
+}
+.table-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+.table-btn p {
+    box-shadow: 0px 1px 1px 3px #F7F7F7;
+    padding: 10px 12px 10px 12px;
+    font-size: medium;
+    font-weight: 700;
+}
+.btn{
+    color: black;
+}
+th{
+    font-size: small;
+    font-weight: 700;
+}
+.about-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    font-size: smaller;
+
+}
+.dis-more2 {
+    background-color: #43BA80;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    width: 29%;
+    margin-top: 5%;
+}
+.tb-color{
+    color: #43BA80;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.tb-pro{
+    padding-left: 10px;
+}
+.form {
+    background-image: url(./Assest/images/calculator-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 77vh;
+    margin-top: 7%;
+}
+.main-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 77vh;
+    margin-right: 4%;
+    color: white;
+}
+.form-image img{
+    width: 80%;
+    margin-top: -5%;
+}
+.form-filed1{
+    font-size: small;
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form-filed{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.form-input p{
+    margin-top: 20%;
+    color: #FA531E;
+    font-size: small;
+    font-weight: bold;
+}
+.form-input h2{
+    margin-top: -3%;
+    font-weight: bold;
+}
+input{
+    padding: 2%;
+    background: #5E697B;
+    border-radius: 6px;
+    border: 1px solid #5E697B;
+}
+button{
+    padding: 2%;
+}
+.form-btn{
+    margin-top: 5%;
+}
+button {
+    background-color: #FF521A;
+    padding: 10px 18px 10px 18px;
+    border-radius: 6px;
+    width: 33%;
+    margin-top: 5%;
+    color: white;
+    font-size: small;
+    border: 1px solid #FF521A;
+}
+#email {
+    margin-left: 10%;
+    margin-right: -9%;
+}
+#email input{
+    padding: 4%;  
+}
+#name input{
+    padding: 4%;
+    width: 100%;
+}
+#subject, #reason{
+    width: 108%;
+    padding-top: 6%;
+}
+.test{
+    margin-top: 8%;
+}
+.test-head{
+    text-align: center;
+    margin-top: 4%;
+}
+.test-head p{
+    color: #FA531E;
+    font-size: small;
+    font-weight: 600;
+}
+.test-head h2{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-top: -1%;
+}
+.test-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px 4px #F7F7F7;
+    width: 60%;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 3%;
+}
+.para {
+    font-size: small;
+    width: 93%;
+    padding-left: 39px;
+}
+.test-name{
+    padding-left: 39px;
+}
+.font-icon {
+    background-color: #43BA80;
+    color: #F7F7F7;
+    width: 3%;
+    padding: 2%;
+    border-radius: 7px;
+    margin-left: 6%;
+}
+.test-cto{
+    color: #43BA80;
+    font-size: small;
+    font-weight: 700;
+    padding-left: 39px;
+    margin-top: -3%;
+}
+.test-img img{
+    width: 150%;
+}
+.test-ponit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.table-btn p:active {
+    color: red;    
+ }
+.point1{
+    padding-right: 2px;
+    color: #FCA381;
+    font-size: 30px;
+}
+.point2{
+    padding-left: 2px;
+    color: #FCA381;
+    font-size: 30px;
+}
+.point-mid{
+color: #F94B14;
+font-size: 30px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 6%;
+    padding-right: 6%;  
+    background-color: #222842;
+    padding: 3%;  
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #181D30;
+}
+.footer p{
+    width: 32%;
+    text-align: center;
+    color: white;
+}
+@media(max-width:1024px){
+.content h1 {
+    width: 50%;
+    font-weight: 00;
+    padding-bottom: 1%;
+}
+.cont-us{
+    width: 10%;
+    left: 15%;
+    padding: 1% 1% 1% 1%;
+}
+.dis-more {
+    width: 11%;
+    padding: 1% 0% 1% 1%;
+}
+.sub-cont {
+    width: 25%;
+    height: 73%;
+    font-size: small;
+}
+.icon {
+    width: 23%;
+    color: #43BA80;
+    font-size: x-large;
+    height: 66%;
+    margin-left: 2%;
+}
+.sub-btn {
+    margin-left: -5%;
+    margin-top: -1%;
+}
+table {
+    width: 116%;
+    font-size: smaller;
+    margin-top: 7%;
+}
+.dis-more2 {
+    width: 36%;
+}
+.form-image img {
+    width: 77%;
+    margin-top: -5%;
+}
+#name input {
+    padding: 6%;
+    width: 104%;
+}
+
+.main-form {
+    padding-left: 4%;
+    padding-right: 5%;
+}
+.form-input p {
+    margin-top: 10%;
+    color: #FA531E;
+    font-size: small;
+    font-weight: bold;
+}
+button {
+    width: 42%;
+}
+element.style {
+    width: 33%;
+    text-align: center;
+}
+.footer p {
+    width: 42%;
+    text-align: center;
+    color: white;
+}
+.test-img img {
+    width: 163%;
+}
+}
+@media (max-width:768px){
+    .content h1 {
+        width: 65%;
+        font-weight: 00;
+        padding-bottom: 1%;
+        font-size: x-large;
+    }
+    .nav-link {
+        width: 62%;
+        font-size: small;
+    }
+    .sub-card{
+        margin: 8px;
+    }
+    .icon {
+        width: 22%;
+    }
+    .card2{
+        margin-top: 0%;
+    }
+.content p {
+    width: 58%;
+}
+hr {
+    width: 7%;
+    position: absolute;
+    top: 44%;
+}
+.dis-more {
+    width: 14%;
+}
+.cont-us {
+    width: 11%;
+    left: 16%;
+}
+.logo{
+    text-align: center;
+    }
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-cont {
+        width: 32%;
+    }
+    
+    .about-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-cont {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        font-size: smaller;
+        margin-top: 3%;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #name input {
+        padding: 2%;
+    }
+    #email input{
+        padding: 2%;
+    }
+    button {
+        width: 78%;
+    }
+    .form-filed1 {
+        font-size: small;
+        margin-top: -5%;
+    }
+    #email{
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .form-image img {
+        width: 92%;
+        margin-top: -5%;
+    }
+    .font-icon {
+        width: 6%;
+        margin-left: 9%;
+    }
+    .para {
+        font-size: xx-small;
+        width: 93%;
+        padding-left: 32px;
+    }
+    .test-name {
+        padding-left: 35px;
+    }
+    .test-cto {
+        font-weight: 700;
+        padding-left: 35px;
+        margin-top: -3%;
+    }
+    .footer p {
+        width: 52%;
+        text-align: center;
+        font-size: small;
+    }
+    #cont-sup {
+        background-color: #43BA80;
+        padding: 6px 9px 6px 9px;
+        border-radius: 6px;
+    }
+}
+@media(max-width:425px){
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        right: 1%;
+        margin-top: 17%;
+        border-radius: 20px;
+        color: black;
+        z-index: 1;
+        background-color: white;
+        width: 76%;
+        height: 39%;
+        text-align: center;
+        padding-right: 51px;
+    }
+    .nav-list a{
+        color: black;
+    }
+    #cont-sup {
+        background-color: #43BA80;
+        padding: 6px 10px 6px 10px;
+        border-radius: 6px;
+        font-size: smaller;
+    }
+    .logo{
+    text-align: center;
+    }
+    .content h1 {
+        font-size: larger
+    }
+    .bar{
+        display: block;
+        display: block;
+        padding-right: 16px;
+        color: white;
+        font-size: medium;
+    }
+    hr {
+        width: 12%;
+        position: absolute;
+        top: 44%;
+    }
+    .content p{
+        font-size: x-small;
+    }
+    .cont-us {
+        width: 19%;
+        left: 26%;
+    }
+    .dis-more {
+        width: 24%;
+    }
+    header {
+        height: 73vh;
+    }
+    .icon {
+        width: 61%;
+        font-size: large;
+    }
+    .table-btn p {
+        box-shadow: 0px 1px 1px 3px #F7F7F7;
+        padding: 10px 12px 10px 12px;
+        font-size: x-small;
+        font-weight: 700;
+        margin-left: 9%;
+        cursor: pointer;
+    }
+    .table-btn p:active {
+        color: red;    
+     }
+    #webDesign{
+        cursor: pointer;
+    }
+    .card2 {
+        margin-left: 3%;
+    }
+    .card1 {
+        margin-left: -1%;
+    }
+    .sub-card{
+        width: 79%;
+        height: 1%;
+    }
+    table {
+        width: 98%;
+        font-size: smaller;
+        margin-top: 7%;
+    }
+    .sub-cont {
+        width: 34%;
+        font-size: x-small;
+    }
+    .sub-btn {
+        font-size: x-small;
+    }
+    .about-cont {
+        display: flex;
+        flex-direction: column;
+        width: 71%;
+        font-size: smaller;
+        margin-top: 3%;
+    }
+    .tb-color {
+        color: #43BA80;
+        font-weight: 400;
+        padding-left: 2%;
+    }
+    .form-image img {
+        display: none;
+    }
+    .font-icon {
+        width: 6%;
+        margin-left: 9%;
+        margin-top: 2%;
+    }
+    .test-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 76%;
+    }
+    .test-name {
+     text-align: center;
+    }
+    .test-cto {
+        text-align: center;
+    }
+    .test-img img {
+        width: 82%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    .sub-card h2{
+        font-size: larger;
+    }
+    .footer p{
+        width: 63%;
+        text-align: center;
+        font-size: x-small;
+    }
+    .para {
+        font-size: xx-small;
+        width: 93%;
+        padding-left: 21px;
+    }
+}
+@media (max-width:375px){
+    .dis-more {
+        width: 27%;
+    }
+    .nav-list {
+        width: 73%;
+    }
+    .para {
+        font-size: xx-small;
+        width: 93%;
+        padding-left: 18px;
+    }
+    .cont-us {
+        width: 22%;
+        left: 29%;
+    }
+    .logo{
+        text-align: center;
+        }
+        .sub-card{
+            padding: 20px;
+        }
+        .icon {
+            width: 72%;
+            font-size: small;
+        }
+        .table-btn p {
+            box-shadow: 0px 1px 1px 3px #F7F7F7;
+            padding: 10px 12px 10px 12px;
+            font-size: x-small;
+            font-weight: 700;
+            margin-left: 9%;
+        }
+        .about-cont {
+            margin-left: 3%;
+        }
+        .sub-card p {
+            font-size: smaller;
+        }
+        .sub-card h2{
+            font-size: larger;
+        }
+        .font-icon {
+            width: 7%;
+            margin-left: 9%;
+            margin-top: 2%;
+        }
+        .footer p {
+            width: 70%;
+            text-align: center;
+            font-size: xx-small;
+        }
+    }
+
